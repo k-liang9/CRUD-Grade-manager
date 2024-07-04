@@ -1,0 +1,38 @@
+<!--purpose: grade calculator-->
+<!--name numerator denominator weighting-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="script.js" defer></script>
+</head>
+<body></body>
+
+<p class="average"></p>
+<br>
+<label for="operation">operation: </label>
+<select id="operation" class="operation">
+    <option value="create">input mark</option>
+    <option value="read">find mark</option>
+    <option value="update">update mark</option>
+    <option value="delete">delete mark</option>
+</select>
+<br>
+<label for="weighting">weighting: </label>
+<input type="number" id="weighting" class="weighting"/>
+<br>
+<label for="numerator">numerator: </label>
+<input type="number" id="numerator" class="numerator"/>
+<br>
+<label for="denominator">denominator: </label>
+<input type="number" id="denominator" class="denominator"/>
+<br>
+<label for="name">name: </label>
+<input type="text" id="name" class="name"/>
+<br>
+<input type="submit" value="submit" class="gradeSubmit"/>
+<br><br>
+<p class="result"></p>
+</html>
